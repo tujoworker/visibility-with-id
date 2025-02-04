@@ -1,0 +1,34 @@
+{
+  "name": "eufemia-starter",
+  "version": "1.0.0",
+  "description": "DNB Eufemia Design System UI Library",
+  "keywords": ["DNB", "UX", "design", "eufemia", "react"],
+  "author": "DNB Team & Tobias Høegh",
+  "homepage": "https://eufemia.dnb.no/uilib/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnbexperience/eufemia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dnbexperience/eufemia/issues"
+  },
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@dnb/eufemia": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.19",
+    "@types/react-dom": "18.2.7",
+    "react-scripts": "5.0.1",
+    "typescript": "5.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": "defaults and supports es6-module"
+}

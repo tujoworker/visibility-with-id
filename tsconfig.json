@@ -1,0 +1,28 @@
+{
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": ["node_modules", "build"],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "target": "es2022",
+    "moduleResolution": "node",
+    "moduleDetection": "force",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    
+    "allowJs": true,
+        
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+
+    "composite": true,
+    
+    "lib": ["es2022", "dom", "dom.iterable"],
+    "types": ["node", "jest"]
+  }
+}
